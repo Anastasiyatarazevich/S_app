@@ -16,5 +16,14 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+
+        val capacityString = getString(R.string.capacity_room)
+        val requiredCapacity = 10
+
+        val roomCapacity = capacityString.toInt()
+
+        if (roomCapacity >= requiredCapacity) {
+            println("Комната подходит")
+        }
     }
 }

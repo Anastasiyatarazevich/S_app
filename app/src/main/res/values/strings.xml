@@ -9,6 +9,8 @@
     <string name="results">4/4</string>
     <string name="my_reservations">Мои бронирования</string>
     <string name="support">Поддержка</string>
+    <string name="good_room">Комната подходит</string>
+    <string name="capacity_room">до 15 человек</string>
     <string name="rooms">Переговорки</string>
     <string name="employees">Сотрудники</string>
     <string name="saving_data">Экономия данных</string>
