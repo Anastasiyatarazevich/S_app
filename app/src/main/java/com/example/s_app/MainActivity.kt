@@ -5,6 +5,8 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import java.time.LocalDate
+import java.time.format.DateTimeFormatter
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -16,5 +18,13 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+
+        val dateFromServer = "2025-09-15"
+
+        val formatter = DateTimeFormatter.ofPattern("dd.MM.yyyy")
+
+        val bookingDate = LocalDate.parse(dateFromServer, formatter)
+
+        println("Бронь на дату: $bookingDate")
     }
 }
