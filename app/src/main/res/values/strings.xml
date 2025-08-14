@@ -1,3 +1,15 @@
 <resources>
-    <string name="app_name">S_app</string>
+    <string name="app_name">S-app</string>
+    <string name="greetings">Здравствуйте,</string>
+    <string name="user_name">Имя пользователя</string>
+    <string name="help">Помощь</string>
+    <string name="office">Офис</string>
+    <string name="history">История</string>
+    <string name="security">Безопасность</string>
+    <string name="results">4/4</string>
+    <string name="my_reservations">Мои бронирования</string>
+    <string name="support">Поддержка</string>
+    <string name="rooms">Переговорки</string>
+    <string name="employees">Сотрудники</string>
+    <string name="saving_data">Экономия данных</string>
 </resources>
