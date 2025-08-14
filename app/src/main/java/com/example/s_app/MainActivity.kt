@@ -16,5 +16,32 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+
+        val rooms = arrayOf(
+            "Juniper",
+            "Maple",
+            "Cedar",
+            "Birch",
+            "Oak",
+            "Pine",
+            "Spruce",
+            "Willow",
+            "Aspen",
+            "Elm",
+            "Alder",
+            "Holly",
+            "Hazel",
+            "Rowan",
+            "Beech",
+            "Linden",
+            "Poplar",
+            "Sycamore",
+            "Chestnut",
+            "Magnolia"
+        )
+
+        for (i in 0..rooms.size) {
+            println("Переговорки в офисе: ${rooms[i]}")
+        }
     }
 }

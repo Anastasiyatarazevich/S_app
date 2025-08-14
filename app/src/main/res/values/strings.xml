@@ -10,6 +10,7 @@
     <string name="my_reservations">Мои бронирования</string>
     <string name="support">Поддержка</string>
     <string name="rooms">Переговорки</string>
+    <string name="promo">Повышение</string>
     <string name="employees">Сотрудники</string>
     <string name="saving_data">Экономия данных</string>
 </resources>
